@@ -40,5 +40,8 @@ finished and written up.
 
 ## Contact
 
-`[TODO]` — add an email, Discord handle or DevForum profile here. A profile with no way to
-reach you is a lead that walks away.
+- **Discord:** `Jetox.` — the fastest way, and the norm in the Roblox community
+- **DevForum:** [@Jetoxsaurio](https://devforum.roblox.com/u/Jetoxsaurio)
+- **Email:** jetoxpve@gmail.com
+
+For anything about a specific system, an issue on its repository works too.
