@@ -25,6 +25,22 @@ interpreter — so its rules are covered by **103 tests in 5 suites** instead of
 The reasoning behind the design, and the bugs verification caught along the way:
 **[case study](https://github.com/jetoxp/portfolio/tree/main/01_Roblox/2026-10-12_InventoryKit)**
 
+### [ability-kit](https://github.com/jetoxp/ability-kit) — MIT
+
+A data-driven ability framework: abilities are declared as data — cost, cooldown, cast time, targeting,
+effects — and the logic that decides is pure Luau. Most ability systems put the decision and the engine
+call in the same function, which is why testing a cooldown means opening Studio. Here the split is the
+constraint: **225 tests in 8 suites** run in seconds without Roblox, and the two files that do touch the
+engine are small enough to audit by eye.
+
+![The HUD: four slots with their keybinds, drawn by a presenter with no engine access](ability_hud.jpg)
+
+`Luau` `Rojo` `selene` `stylua` `GitHub Actions`
+
+Six bugs were caught after the suite was green — five in the seam between the pure logic and the engine,
+and one in the measurement setup itself. All six are named in the
+**[case study](https://github.com/jetoxp/portfolio/tree/main/01_Roblox/2026-10-13_AbilityKit)**
+
 ---
 
 ## Tools I work in
@@ -36,7 +52,7 @@ Luau · Roblox Studio · Rojo · selene · stylua · DataStoreService · git
 Three more Roblox projects are in progress: a multiplayer elimination game, an extraction
 roguelike, and a match engine. They are deliberately not on this page yet — I would rather it
 list a few finished, documented systems than thirty half-built ones. It grows as each one is
-finished and written up.
+finished and written up, which is how the two above got here.
 
 ## Contact
 
