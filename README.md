@@ -40,7 +40,7 @@ finished and written up.
 
 ## Contact
 
-- **Discord:** `Jetox.` — the fastest way, and the norm in the Roblox community
+- **Discord:** `Jetox.` 
 - **DevForum:** [@Jetoxsaurio](https://devforum.roblox.com/u/Jetoxsaurio)
 - **Email:** jetoxpve@gmail.com
 
